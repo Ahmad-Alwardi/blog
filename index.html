@@ -1,0 +1,239 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/vendors/bootstrap/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./assests/fonts/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="./assests/css/font-face.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+
+    <title>khodshenasi</title>
+</head>
+
+<body>
+    <div class="navbar" >
+        <i class="fas fa-magnifying-glass" id="magnifying" onclick="opennav()"></i>
+        <div class="image">
+            <img src="assests/images/1.png" class="logo"></img>
+        </div>
+        <i class="fas fa-bars" onclick="opennav()"></i>
+
+        <nav class="navbar-menu">
+            <ul>
+                <li class="li"><a href="#">آغاز</a></li>
+                <li class="li"><a href="#">چرا خود شناسی</a></li>
+                <li class="li"><a href="#">منتخب صوت</a></li>
+                <li class="li"><a href="#">جلسات</a></li>
+                <li class="li"><a href="#">منتخب من</a></li>
+                <li class="li"><a href="#">شبکه های اجتماعی</a></li>
+                <li class="li"><a href="#">سوالات متدوال</a></li>
+            </ul>
+            <form class="search">
+                <input class="search-box" type="text" placeholder="جستجو">
+
+                <button><i class="fas fa-magnifying-glass" id="second-magnify"></i></button>
+            </form>
+
+
+            <div class="dropdown" >
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                فارسی
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#" onclick="show(this)"> فارسی</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="show(this)"> عربی</a></li>
+                  <li><a class="dropdown-item" href="#" onclick="show(this)">English</a></li>
+                </ul>
+              </div>
+
+        </nav>
+    </div>
+
+    <header onclick="closenav()">
+        <div class="header-span">
+            <span><a href="#"> عنوان صفحه </a></span>/
+            <span><a href="#">چرا خود شناسی </a></span>/
+            <span><a href="#">صفحه اصلی </a></span>
+        </div>
+        <h1>مقالات</h1>
+        <ul>
+            <li><a href="#"><i class="fas fa-copy"></i></a></li>
+            <li><a href="#"><i class=" fab fa-telegram"></i></a></li>
+            <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+    </header>
+
+    <section class="all-content" onclick="closenav()">
+        <div class="container1">
+            <div class="image-zoom">
+                <a href="#">
+                    <img src="assests/images/2.jfif">
+                </a>
+            </div>
+            <div class="date">۱۴۰۰/۰۴/۱۴</div>
+            <div class="small">
+                <a href="#"><small class="c1">خود شناسی</small></a>
+                <a href="#" id="num1"><small class="c2">خود شناسی</small></a>
+                <a href="#" id="num2"><small class="c3">خود شناسی</small></a>
+            </div>
+            <h1>زنده بودن غیر از زندگی کردن</h1>
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                داشت که تمام و دشواری موجود در شرایط سخت تایپ به پایان رسد...
+            </p>
+            <div class="end-container"><a href="#">ادامه مقاله</a></div>
+        </div>
+
+        <div class="container2">
+            <div class="image-zoom">
+                <a href="#">
+                    <img src="./assests/images/3.jfif">
+                </a>
+            </div>
+            <div class="date2">۱۴۰۰/۰۴/۱۴</div>
+            <div class="small2">
+                <a href="#"><small class="c1">خود شناسی</small></a>
+                <a href="#" id="num1"><small class="c2">خود شناسی</small></a>
+                <a href="#" id="num2"><small class="c3">خود شناسی</small></a>
+            </div>
+            <h1>زنده بودن غیر از زندگی کردن</h1>
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                داشت که تمام و دشواری موجود در شرایط سخت تایپ به پایان رسد...
+            </p>
+            <div class="end-container"><a href="#">ادامه مقاله</a></div>
+        </div>
+        <div class="container3">
+            <div class="image-zoom">
+                <a href="#">
+                    <img src="./assests/images/4.jfif">
+                </a>
+            </div>
+            <div class="date3">۱۴۰۰/۰۴/۱۴</div>
+            <div class="small3">
+                <a href="#"><small class="c1">خود شناسی</small></a>
+                <a href="#" id="num1"><small class="c2">خود شناسی</small></a>
+                <a href="#" id="num2"><small class="c3">خود شناسی</small></a>
+            </div>
+            <h1>زنده بودن غیر از زندگی کردن</h1>
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                داشت که تمام و دشواری موجود در شرایط سخت تایپ به پایان رسد...
+            </p>
+            <div class="end-container"><a href="#">ادامه مقاله</a></div>
+        </div>
+        <div class="container4">
+            <div class="image-zoom">
+                <a href="#">
+                    <img src="./assests/images/5.jfif">
+                </a>
+            </div>
+            <div class="date4">۱۴۰۰/۰۴/۱۴</div>
+            <div class="small4">
+                <a href="#"><small class="c1">خود شناسی</small></a>
+                <a href="#" id="num1"><small class="c2">خود شناسی</small></a>
+                <a href="#" id="num2"><small class="c3">خود شناسی</small></a>
+            </div>
+            <h1>زنده بودن غیر از زندگی کردن</h1>
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                داشت که تمام و دشواری موجود در شرایط سخت تایپ به پایان رسد...
+            </p>
+            <div class="end-container"><a href="#">ادامه مقاله</a></div>
+        </div>
+        <div class="container5">
+            <div class="image-zoom">
+                <a href="#">
+                    <img src="./assests/images/6.jfif">
+                </a>
+            </div>
+            <div class="date5">۱۴۰۰/۰۴/۱۴</div>
+            <div class="small5">
+                <a href="#"><small class="c1">خود شناسی</small></a>
+                <a href="#" id="num1"><small class="c2">خود شناسی</small></a>
+                <a href="#" id="num2"><small class="c3">خود شناسی</small></a>
+            </div>
+            <h1>زنده بودن غیر از زندگی کردن</h1>
+            <p> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی
+                داشت که تمام و دشواری موجود در شرایط سخت تایپ به پایان رسد...
+            </p>
+            <div class="end-container"><a href="#">ادامه مقاله</a></div>
+        </div>
+    </section>
+    <ul class="slide-number">
+        <a href="#" class="angle">
+            <li> <i class="fas fa-angle-left"></i></li>
+        </a>
+        <a href="#" class="number">
+            <li>۱</li>
+        </a>
+        <a href="#" class="number">
+            <li>۲</li>
+        </a>
+        <a href="#" class="number">
+            <li>۳</li>
+        </a>
+        <a href="#" class="number">
+            <li>۴</li>
+        </a>
+        <a href="#" class="angle">
+            <li> <i class="fas fa-angle-right"></i></li>
+        </a>
+    </ul>
+
+    <footer onclick="closenav()">
+        <div id="right-content">
+            <div class="logo2">
+                <img src="./assests/images/1.png" alt="">
+                <span>Khodshenasi.me</span>
+            </div>
+
+            <div class="paragraph">
+                <p class="p1">این سایت توسط جمعی از علاقه مندان به جلسات خودشناسی حاج آقا نوروزی ، راه اندازی شده تمام جلسات و محتوا کاملا رایگان است و نشر و کپی برداری با ذکر منبع مجاز است ارتباط با ما از طریق <a href="#">info@khodshenasi.me</a> و شبکه های اجتماعی
+                    :
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                </p>
+            </div>
+        </div>
+        <div class="left-content">
+            <h1>دسترسی سریع</h1>
+            <ul id="ul">
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li><a href="#">دوره مقدماتی خود شناسی</a></li>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li><a href="#">منتخب صوت</a></li>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li style="margin-left:66px;"><a href="#">پادکست</a></li>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li><a href="#">سایر دوره های خودشناسی</a></li>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li><a href="#">منتخب متن</a></li>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li style="margin-left: 22px;"><a href="#">سوالات متداول</a></li>
+                </div>
+                <div>
+                    <i class="fas fa-circle"></i>
+                    <li><a href="#">جلسات هفتگی</a></li>
+                </div>
+            </ul>
+        </div>
+    </footer>
+
+    <div class="under-footer"><p>تمامی حقوق برای وبسایت خودشناسی محفوظ است - ۱۴۰۰</p></div>
+    <script src="./assests/js/main.js"></script>
+    <script src="./assests/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+    
+</body>
+
+</html>
